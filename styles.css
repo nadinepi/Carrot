@@ -1,0 +1,126 @@
+html, body{
+    height: 100%;
+}
+.grasslandbg{
+    background-color: #52A4E6;
+    background-image: url("finalbackground.png");
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.skybg{
+    background-color: #52A4E6;
+    background-image: url("finalskybackground.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#welcome {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.blue {
+    background-color: #49A8F3;
+    border-color: #49A8F3;
+    margin: 30px 0px;
+}
+
+.wrap {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.smallwrap {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    font-size: 25px;
+}
+
+.logo {
+    margin: 10px;
+    width: 24%;
+}
+
+.logo2 {
+    margin-top: 20px;
+    width: 24%;
+}
+
+.abovelogo {
+    color: white;
+    margin-top: 40px;
+}
+
+.belowlogo {
+    color: white;
+    margin: 50px 20px;
+}
+
+form {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+input {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: block;
+    text-align: left;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+label {
+    float: left;
+    font-size: 13px;
+}
+
+.biglabel {
+    float: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.lightblue {
+    margin: 15px 5px;
+    background-color: #0B7FDC;
+    border-color: #0B7FDC;
+}
+
+.lessmargin {
+    margin-top: 0;
+}
+
+.btnmargins {
+    margin: 20px;
+}
+
+.task {
+    font-size: 30px;
+    margin: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+#error {
+    color: red;
+    font-size: 0.8em;
+}
