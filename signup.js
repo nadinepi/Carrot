@@ -1,6 +1,6 @@
 function getinfo(){
-    let parentname = document.querySelector('#pname').value;
-    let childname = document.querySelector('#cname').value;
+    let parentname = document.querySelector('#parentname').value;
+    let childname = document.querySelector('#childname').value;
     let password = document.querySelector('#password').value;
 
 
@@ -8,6 +8,6 @@ function getinfo(){
         document.querySelector('#error').innerHTML = 'Please enter missing information';
         return false;
     }else{
-        window.location = ('/signin.html');
+        window.location = ('signin.html');
     }
 }
